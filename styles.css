@@ -31,9 +31,10 @@ body{
     display: flex;
     flex-direction: row;
     border: 5px solid black;
-    background-color: rgb(52, 187, 34);
+    background-color: #7c6b0d79;
     color: black;
-    padding: 50px;
+    padding: 100px;
+    justify-content: center;
   
 }
 
@@ -124,7 +125,9 @@ body{
 
 
 .quote-by{
-    justify-self: flex-end;
+    margin-left: 800px;
+    font-size: 21px;
+    font-weight: 700;
 }
 
 .shop{
@@ -141,4 +144,13 @@ body{
 
 .images p{
     margin-left: 32px;
+}
+
+.quote{
+    font-style: italic;
+    font-size: 42px;
+    
+}
+.block{
+    max-width: 1000px;
 }
