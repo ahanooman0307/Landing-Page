@@ -177,11 +177,16 @@ body{
     background-color: #3b8cd8;
     border: 1px solid white;
     color: white;
-    padding: 15px 32px;
     font-size: 16px;
     cursor: pointer;
     border-radius: 20px;
     transition-duration: 0.2s;
+    
+}
+
+.shops a{
+    display: block;
+    padding: 15px 32px; /*to make button fully responsive */
 }
 
 .shops:hover{
