@@ -9,7 +9,6 @@ body{
 .one-quarter{
     display: flex;
     flex-direction: column;
-    border: 0px solid black;
     background-color: rgb(33, 46, 68);
     color: white;
     align-items: center;
@@ -19,32 +18,31 @@ body{
 .two-quarter{
     display: flex;
     flex-direction: column;
-    border: px solid black;
     background-color: rgba(34, 34, 34, 0.877);
     color: white;
     padding: 50px;
     gap: 64px;
+    border-top: 12px solid black;
    
 }
 
 .three-quarter{
     display: flex;
     flex-direction: row;
-    border: 5px solid black;
     background-color: #7c6b0d79;
     color: black;
     padding: 100px;
     justify-content: center;
   
+    border-bottom: 12px solid black;
 }
 
 .four-quarter{
     display: flex;
     flex-direction: row;
-    border: 5px solid black;
-    background-color: white;
-    color: black;
-    justify-content: space-around;
+    background-color: rgb(33, 46, 68);
+    color: white;
+    justify-content: center;
     padding: 50px
 }
 
@@ -56,7 +54,7 @@ body{
     justify-content: space-between;
     font-weight: 700;
     font-size: 34px;
-    gap: 1500px;
+    gap: 1200px;
     padding: 24px;
     
     
@@ -133,6 +131,7 @@ body{
 .shop{
     display: flex;
     align-items: flex-end;
+    margin-bottom: 15px;
 }
 
 .pic{
@@ -153,4 +152,18 @@ body{
 }
 .block{
     max-width: 1000px;
+}
+
+.box{
+    display: flex;
+    gap: 100px;
+    background-color: rgb(117, 136, 168);
+    padding: 20px 100px;
+    border-radius: 20px;
+    font-size: 20px;
+    
+}
+
+.persuade{
+    margin-bottom: 5px;
 }
