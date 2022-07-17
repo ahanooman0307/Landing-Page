@@ -131,7 +131,6 @@ body{
 .shop{
     display: flex;
     align-items: flex-end;
-    margin-bottom: 15px;
 }
 
 .pic{
@@ -161,9 +160,25 @@ body{
     padding: 20px 100px;
     border-radius: 20px;
     font-size: 20px;
+    border: 1px solid white;
     
 }
 
 .persuade{
     margin-bottom: 5px;
+}
+
+.shops{
+    background-color: #3b8cd8;
+    border: 1px solid white;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition-duration: 0.2s;
+}
+
+.shops:hover{
+    background-color: #aeddecce;
 }
