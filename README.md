@@ -1,5 +1,7 @@
 # Landing-Page
 
+Practiced using flexbox to design a webpage. Learned how to use flexbox to manipulate HTML.
+Learned how to design a webpage with CSS.
 
 Rum image: Image by <a href="https://pixabay.com/users/alexas_fotos-686414/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3898745">Alexas_Fotos</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3898745">Pixabay</a>
 
